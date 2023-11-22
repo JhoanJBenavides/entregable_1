@@ -8,7 +8,10 @@
     padding: 20px;
     color:aliceblue;
     background-size:cover; 
-    font-family: 'DS-Digital', sans-serif;
+    font-family: 'Digital-7 Mono', sans-serif;
+    font-family: 'Digital-7', sans-serif;
+    font-family: 'Digital-7 Italic', sans-serif;
+
     /* sirve par aque la imagen no se repita */  
   }
 
