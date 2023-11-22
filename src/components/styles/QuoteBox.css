@@ -1,0 +1,36 @@
+.quotebox{
+    max-width: 400px;
+    display: grid;
+    gap:20px;
+    justify-items: center;
+}
+
+/* todos los comandos en el interior fueron para mandar abajo y centrar */
+.quotebox__author{
+    background-image: url(/public/images/background_phrase.png);
+    position: absolute;
+    bottom: 10px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.quotebox__btn{
+    background-color: rgba(2, 2, 2, 0.015);
+    padding:0;
+    border: 0;
+    
+}
+
+.quotebox__title{
+    color: lightblue;
+}
+
+.quotebox__box{
+    background-color:rgba(240, 248, 255, 0.444);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-block-end: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:black;
+}

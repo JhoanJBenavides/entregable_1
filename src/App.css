@@ -1,0 +1,32 @@
+.App {
+  /* Centrar con flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    color:aliceblue;
+    background-size:cover; 
+    font-family: 'DS-Digital', sans-serif;
+    /* sirve par aque la imagen no se repita */  
+  }
+
+.bg1 {
+    background-image: url(/images/universo1.jpeg);
+}
+
+.bg2 {
+    background-image: url(/images/universo2.jpeg);
+}
+
+.bg3 {
+    background-image: url(/images/universo3.jpeg);
+}
+
+.bg4 {
+    background-image: url(/images/universo4.jpeg);
+}
+
+
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/ds-digital');
+
+                
+/*Estos son nuestros estilos de reset*/
+/* modelo de la caja */
+html{
+    box-sizing: border-box;
+}
+
+/* Para que se aplique a toda la caja se utiliza el asterisco a todos los elementos 
+Hay elementos que no va a seleccionar y son los pseudoelementos after y before que 
+se generan a partir de otros elementos para los cuales tenemos la notacion *::  */
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+ 
+/* En el anterior comando estamos diciendo que los demas elementos hereden de su padre 
+que en este caso es html sus caracteristicas de box-sizing */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
