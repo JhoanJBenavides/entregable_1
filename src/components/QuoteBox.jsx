@@ -5,7 +5,7 @@ const QuoteBox = ({ quote, handleChangeQuote }) => {
   const { author } = quote;
   return (
     <article className="quotebox">
-      <img className="quotebox_planet" src="/public/images/vector.png" alt=""/>
+      <img className="quotebox_planet" src="/images/vector.png" alt=""/>
       <h1 className="quotebox__title">INFOGALAX</h1>
       <div className="quotebox__box">
         <p>{quote.phrase}</p>
