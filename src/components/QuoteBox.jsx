@@ -5,13 +5,13 @@ const QuoteBox = ({ quote, handleChangeQuote }) => {
   const { author } = quote;
   return (
     <article className="quotebox">
-      <img className="quotebox_planet" src="/images/vector.png" alt=""/>
+      <img className="quotebox_planet" src="/public/images/vector.png" alt=""/>
       <h1 className="quotebox__title">INFOGALAX</h1>
       <div className="quotebox__box">
         <p>{quote.phrase}</p>
       </div>
       <button className="quotebox__btn" onClick={handleChangeQuote}>
-      <img src="/public/images/boton.svg" alt=""/>
+      <img src="/images/boton.svg" alt=""/>
       </button>
       <div className="quotebox__author"> {author}</div>
     </article>
